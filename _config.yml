@@ -1,3 +1,5 @@
 baseurl: /antonejia.github.io
 theme: cayman
 
+
+theme: jekyll-theme-cayman
