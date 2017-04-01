@@ -1,15 +1,20 @@
-
 ---
 layout:     post
-title:      "Guava Cache"
-subtitle:   "一种内存缓存解决方案"
+title:      "Guava"
+subtitle:   "一种内存解决方案"
 date:       2017-03-31 12:00:00
 author:     "Antone"
+header-img: "img/post-bg-nextgen-web-pwa.jpg"
 header-mask: 0.3
 catalog:    true
-tags:
-    - cache
+tags: 
+    - Cache
+ 
 ---
+
+
+
+
 
 ## 简介与使用场景
 Guava Cache是一种内存缓存。实际工作中，为防止业务瞬间QPS过高对DB带来的压力，我们通常会使用缓存，如redis，memcached，tair等成熟的缓存技术。但同时，业务瞬间QPS过高也有可能对缓存造成压力。
