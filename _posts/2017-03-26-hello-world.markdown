@@ -7,8 +7,9 @@ author:     "Antone"
 header-img: "img/post-bg-nextgen-web-pwa.jpg"
 header-mask: 0.3
 catalog:    true
-tags:
-    - 生活
+tags: 
+    - Life
+    - Life2
 
 ---
 
