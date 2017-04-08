@@ -1,5 +1,5 @@
 ---
-layout: category_archives
+layout: archives
 title: "Blog Archive"
 permalink: /archives/
 ---
