@@ -1,14 +1,5 @@
-
 ---
-layout:     post
-title:      "Guava Cache"
-subtitle:   "一种内存缓存解决方案"
-date:       2017-03-31 12:00:00
-author:     "Antone"
-header-mask: 0.3
-catalog:    true
-tags:
-    - cache
+layout: post
 ---
 
 ## 简介与使用场景
