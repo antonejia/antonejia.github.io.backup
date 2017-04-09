@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Introduction of CountDownLatch"
 ---
 
 >【名词解释】
