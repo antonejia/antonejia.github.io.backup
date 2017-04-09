@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 >【名词解释】
 Latch: 门闩，闸
 CountDown：对计数值做减法
