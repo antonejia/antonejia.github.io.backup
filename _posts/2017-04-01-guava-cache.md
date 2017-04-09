@@ -22,7 +22,7 @@ Guava Cache是一种内存缓存。实际工作中，为防止业务瞬间QPS过
 ### 1. 数据加载
 Guava Cache支持“get-if-absent-compute”语义（查询-如果不存在-计算-放入缓存）。只需定义自己的load方法
 
-```
+```java
   LoadingCache<Key, Graph> graphs = CacheBuilder.newBuilder()
         .maximumSize(1000)
         .build(
@@ -51,7 +51,7 @@ Guava Cache支持三种基本的缓存回收方式：基于容量回收，定时
 1. 限定cache key值的上限：CacheBuilder.maximumSize(long)。缓存将尝试回收最近没有使用或很少使用的缓存项；
 2. 限定cache总内存大小(最大总重，需要指定每个缓存项权重计算方法)：CacheBuilder.maximumWeight(long).weiger()
  
- ```
+ ```java
   LoadingCache<Key, Graph> graphs = CacheBuilder.newBuilder()
         .maximumWeight(100000)
         .weigher(new Weigher<Key, Graph>() {
@@ -97,7 +97,7 @@ CacheBuilder提供两种定时回收的方法：
 #### 2.5 刷新
 刷新和回收不一样，refresh(key)，刷新表示加载某个key的新值，这个过程可以是异步的。
 
-```
+```java
 //有些键不需要刷新，并且我们希望刷新是异步完成的
 LoadingCache<Key, Graph> graphs = CacheBuilder.newBuilder()
         .maximumSize(1000)
